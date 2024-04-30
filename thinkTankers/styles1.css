@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    background-image: url(h3.jpg); 
+        background-size: cover; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+.header {
+    text-align: center;
+    border: 2px solid #505;
+    padding: 10px;
+}
+
+.header h1 {
+    font-size: xx-large;
+}
+
+
+.content {
+    margin: 10vh auto;
+    width: 60%;
+    text-align: center;
+}
+
+/* Explore Button Styles */
+.explore-button {
+    text-align: center;
+}
+
+.explore-button button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

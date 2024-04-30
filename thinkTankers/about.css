@@ -1,0 +1,37 @@
+body {
+    background-image: url(bk.jpg); 
+    background-size: cover; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro-section {
+    margin-bottom: 30px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
